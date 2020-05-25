@@ -2,7 +2,7 @@ from colored import fore, style
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix="guci!")
-TOKEN = "NzE0NDEwODY4OTYzODAzMTY3.Xsunmg.ijGQJr091q6KH_i04OemjWgZXRM"
+TOKEN = "TOKEN"
 
 class log:
     def status(msg):
