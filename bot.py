@@ -31,6 +31,6 @@ async def on_member_join(member):
     log.status(f"{member.nick} has joined server")
     role = discord.utils.get(member.server.roles, name="Normální žid")
     await bot.add_role(member, role)
-    log.finished(f"Member {member.nicj} has been assigned role {role} with name Normální Žid")
+    log.finished(f"Member {member.nick} has been assigned role {role} with name Normální Žid")
 
 bot.run(TOKEN)
